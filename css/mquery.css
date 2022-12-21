@@ -1,0 +1,24 @@
+/* HEADER */
+
+/* mediaquery per icona menù hamburger */
+
+@media screen and (min-width:768px){
+    .head .fa-bars{
+        display: none;
+    }
+}
+
+/* media query per tablet */
+
+@media screen and (max-width:767px){
+     
+    .head .fa-bars{
+        color:white;
+        font-size: 20px;
+    }
+
+    .head .head-nav ul li{
+        display: none;
+    }
+
+}

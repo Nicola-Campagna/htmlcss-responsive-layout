@@ -19,6 +19,40 @@
 	display: table;
 }
 
+ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+ul li a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.btn{
+	background-color: white;
+	color: black;
+	padding: 4px 8px;
+	border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* PADDING */
 
 .p1 {
