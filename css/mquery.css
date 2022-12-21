@@ -22,3 +22,30 @@
     }
 
 }
+
+/* MAIN */
+
+/* Main Card Section */
+
+/* media query per smar
+
+tphone */
+@media screen and (max-width:480px){
+
+    .row{
+        justify-content: center;
+    }
+
+    .row .card{
+        min-width: 100%;
+
+    }
+
+    .row .card.col{
+
+        width: 100%;
+    }
+
+
+
+}

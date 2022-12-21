@@ -9,8 +9,11 @@
 /* UTILS */
 
 .container {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
+	padding: 0 2rem;
+	/* debug */
+	border: 1px solid black;
 }
 
 .clearfix::after {
@@ -24,17 +27,14 @@ ul li{
 	list-style: none;
 }
 
-ul li a{
-	text-decoration: none;
-	color: inherit;
-}
-
 .btn{
 	background-color: white;
 	color: black;
 	padding: 4px 8px;
 	border-radius:10px;
 }
+
+
 
 
 

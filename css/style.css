@@ -22,3 +22,55 @@
 .head .head-logo{
     cursor: pointer;
 }
+
+/* MAIN */
+
+/* Section Main Card */
+.main-card-section{
+    margin-top: 60px;
+    /* debug */
+    border: 1px solid orange;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 2rem 0;
+    /* debug */
+    border: 1px solid blue;
+}
+
+.row .card{
+    width: calc(100% / 3 - 20px);
+    border-radius:1rem;
+    /* debug */
+    height: 100px;
+    border: 1px solid red;
+}
+
+.card.col{
+    width: calc(100% / 3 * 2 - 10px) ;
+    display: flex;
+    justify-content: center;
+}
+
+.card-left{
+    width: 50%;
+    /* debug */
+    border: 1px dotted black;
+}
+
+.card-right{
+    width: 50%;
+    /* debug */
+    border: 1px solid green;
+}
+
+/* .row .card i{
+    font-size: 80px;
+    color: blue;
+
+} */
+
