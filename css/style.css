@@ -121,7 +121,7 @@ p{
     text-align: center;
     background-color: #0084FD;
     color: white;
-    width: 50%;
+    /* width: 50%; */
     padding: 0.5rem;
     margin: 1rem;
 }
@@ -339,4 +339,11 @@ color: #9792E4;
 .about .w-30 h3{
 color: #9792E4;
 
+}
+
+/* SECTION FREE */
+
+.free>div,
+.free>div.btn.btn-blue{
+    text-align: center;
 }
