@@ -203,25 +203,55 @@ text-align: center;
 
 .testi-card{
     display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    background-color: #9792E4;
+    /* padding: 1rem 0; */
+
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
+
+.head-testi-card>div{
+    text-align: center;
+}
+
+.head-testi-card h3{
+    font-size: 50px;
+    /* padding: 1rem 5rem; */
+    color: #9792E4;
+}
+
 
 .testi-img{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
+    height:200px;
+    padding: 1rem 0.5rem;
+    /* width: 200px; */
+    /* border-radius: 50%;
+    object-fit:cover; */
     /* debug */
-    background-color: red;
-    border: 2px dotted black;
+    /* background-color: red; */
+    /* border: 2px dotted black; */
+}
+.testi-img img{
+    border-radius: 50%;
+    height: 100%;
+    object-fit:cover;
+}
+.testi-text{
+    color: white;
 }
 
-.testi-text{
+.testi-text h4{
+    text-align:start;
+    margin-left: 2.5rem;
     /* debug */
-    width: 80px;
-    height: 80px;
-    background-color: green;
-    border: 1px solid red;
+    /* width: 80px;
+    height: 80px; */
+    /* align-items: center; */
+    /* background-color: green; */
+    /* border: 1px solid red; */
 }
 
 /* SECTION BENEFITS */
