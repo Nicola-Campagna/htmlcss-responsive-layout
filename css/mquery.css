@@ -27,9 +27,7 @@
 
 /* Main Card Section */
 
-/* media query per smar
-
-tphone */
+/* media query per smartphone */
 @media screen and (max-width:480px){
 
     .row{
@@ -46,6 +44,17 @@ tphone */
         width: 100%;
     }
 
+}
 
+
+/* MEDIA QUERY SECTION PURPLE */
+
+/* media query per tablet */
+@media screen and (max-width:768px) {
+
+    .planning .col-left,
+    .planning .col-right{
+        width: 100%;
+    }
 
 }

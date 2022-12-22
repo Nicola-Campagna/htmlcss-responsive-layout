@@ -68,9 +68,26 @@
     border: 1px solid green;
 }
 
-/* .row .card i{
-    font-size: 80px;
-    color: blue;
 
-} */
+/* SECTION PURPLE */
 
+.planning{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.planning .col-left,
+.planning .col-right{
+    width: 50%;
+    /* debug */
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    border: 1px solid black;
+
+}
+
+.planning .col-right{
+    align-items: flex-end;
+}
