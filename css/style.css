@@ -131,7 +131,7 @@ p{
 
 .purple{
     background-color:#9792E4;
-    margin: 7rem 0;
+    padding: 1rem 0;
 
 }
 
@@ -341,9 +341,54 @@ color: #9792E4;
 
 }
 
+.free>div h4{
+    font-size: 18px;
+    color: lightgray;
+
+}
+
+.free>div h3{
+    font-size: 35px;
+    color: white;
+
+}
+
+.free>div h2{
+    font-size: 60px;
+
+    color: orange;
+}
+
+.free>div p,
+.free>div span{
+    color: white;
+}
+
+.free>div.btn.btn-blue{
+    background-color: white;
+    color: #9792E4;
+}
+
+
+
+
+
 /* SECTION FREE */
 
 .free>div,
 .free>div.btn.btn-blue{
+    text-align: center;
+}
+
+
+#foot{
+    
+    background-color:#333;
+}
+
+
+.foot{
+    padding: 3rem 0;
+    color: white;
     text-align: center;
 }
