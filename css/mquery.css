@@ -58,3 +58,14 @@
     }
 
 }
+
+/* MEDIA QUERY SECTION TESTIMONIALS */
+
+/* media query per smartphone */
+@media screen and (max-width:480px) {
+    
+    .testimonials .testi-card{
+        display: block;
+    }
+
+}

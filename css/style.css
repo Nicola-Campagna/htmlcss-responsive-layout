@@ -91,3 +91,36 @@
 .planning .col-right{
     align-items: flex-end;
 }
+
+
+/* SECTION TESTIMONIALS */
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.testi-card{
+    display: flex;
+    /* debug */
+    border: 1px solid black;
+}
+
+.testi-img{
+    border-radius: 50%;
+    /* debug */
+    background-color: red;
+    border: 2px dotted black;
+    height: 80px;
+    width: 80px;
+}
+
+.testi-text{
+    /* debug */
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border: 1px solid red;
+}
