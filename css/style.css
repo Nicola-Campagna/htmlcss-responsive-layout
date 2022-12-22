@@ -309,15 +309,34 @@ color: #9792E4;
 .w-70{
     width: 70%;
     /* debug */
-    height: 80px;
-    border: 1px solid blue;
+    /* height: 80px; */
+    /* border: 1px solid blue; */
 }
 
 .w-30{
     width: 30%;
+    text-align: center;
     /* debug */
-    height: 80px;
-    border: 1px solid blue;
+    /* height: 80px; */
+    /* border: 1px solid blue; */
 
+}
+
+.about .w-30 .btn.btn-blue{
+    margin-left: 3rem;
+}
+
+.about .w-70 h3{
+font-size: 45px;
+color: #9792E4;
+}
+
+.about .w-30 img{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.about .w-30 h3{
+color: #9792E4;
 
 }
