@@ -69,3 +69,24 @@
     }
 
 }
+
+/* MEDIA QUERY SECTION BENEFITS */
+
+/* media query per tablet */
+@media screen and (max-width:768px) {
+    
+    .benefits .card-benefit{
+        width:calc( 50% - 2rem);
+    }
+
+}
+
+/* media query per smartphone */
+@media screen and (max-width:480px) {
+
+    .benefits .card-benefit{
+        width:100%
+        
+    }
+
+}

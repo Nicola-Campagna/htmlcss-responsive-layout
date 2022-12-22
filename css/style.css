@@ -109,12 +109,12 @@
 }
 
 .testi-img{
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     /* debug */
     background-color: red;
     border: 2px dotted black;
-    height: 80px;
-    width: 80px;
 }
 
 .testi-text{
@@ -123,4 +123,26 @@
     height: 80px;
     background-color: green;
     border: 1px solid red;
+}
+
+/* SECTION BENEFITS */
+
+.benefits{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.benefits .card-benefit{
+    width: calc(100% / 3 - 2rem);
+    margin: 1rem;
+    /* debu */
+    height: 80px;
+    border: 1px solid red;
+
+}
+
+.benefits h2{
+    width: 100%;
+    text-align: center;
 }
