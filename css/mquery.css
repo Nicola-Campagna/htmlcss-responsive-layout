@@ -90,3 +90,16 @@
     }
 
 }
+
+/* MEDIA QUERY SECTION ABOUT US */
+
+/* media query per smartphone */
+@media screen and (max-width:480px) {
+
+    .w-70,
+    .w-30 {
+        width: 100%;
+
+    }
+
+}

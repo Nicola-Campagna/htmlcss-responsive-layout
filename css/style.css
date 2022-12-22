@@ -146,3 +146,28 @@
     width: 100%;
     text-align: center;
 }
+
+
+/* SECTION ABOUT US */
+
+.about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.w-70{
+    width: 70%;
+    /* debug */
+    height: 80px;
+    border: 1px solid blue;
+}
+
+.w-30{
+    width: 30%;
+    /* debug */
+    height: 80px;
+    border: 1px solid blue;
+
+
+}
