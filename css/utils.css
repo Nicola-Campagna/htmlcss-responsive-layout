@@ -14,7 +14,7 @@
 	padding: 0 2rem;
 	/* debug */
 	/* background-color: black; */
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .small-container{
@@ -23,7 +23,7 @@
 	padding: 0 2rem;
 	/* debug */
 	
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 }
 
 .clearfix::after {

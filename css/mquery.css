@@ -27,6 +27,22 @@
 
 /* Main Card Section */
 
+/* media query per tablet */
+@media screen and (max-width:768px) {
+     
+     .row .card.col{
+        flex-wrap: wrap;
+     }
+    .row .card-left{
+        text-align: start;
+        width: 100%;
+    }
+   
+    .row .card-right{
+        width: 100%;
+    }
+}
+
 /* media query per smartphone */
 @media screen and (max-width:480px){
 
@@ -44,6 +60,7 @@
         width: 100%;
     }
 
+
 }
 
 
@@ -54,6 +71,10 @@
 
     .planning .col-left,
     .planning .col-right{
+        width: 100%;
+    }
+
+    .planning .col-right .app{
         width: 100%;
     }
 
