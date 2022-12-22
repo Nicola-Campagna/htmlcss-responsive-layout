@@ -265,15 +265,36 @@ text-align: center;
 .benefits .card-benefit{
     width: calc(100% / 3 - 2rem);
     margin: 1rem;
+    border-radius: 2rem;
+    background-color: white;
     /* debu */
-    height: 80px;
-    border: 1px solid red;
+    /* height: 80px; */
+    /* border: 1px solid red; */
+    
+}
+
+.card-benefit h4{
+    font-size: 50px;
+    margin: 1.5rem;
+    color: #9792E4;
+    
+}
+
+.card-benefit h3{
+color: #9792E4;
+}
+
+.card-benefit .btn{
+    background-color: #9792E4;
 
 }
 
 .benefits h2{
     width: 100%;
     text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 4rem 0;
 }
 
 
